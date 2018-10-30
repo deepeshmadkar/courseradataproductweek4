@@ -49,7 +49,7 @@ plot(iris)
 library(caret)
 ```
 
-```{r echo = TRUE}
+```{r echo = TRUE, cache=TRUE}
 # Linear Discriminant Analysis (LDA)
 model1 <- train(Species~., data=iris, method='lda')
 # Accuracy of the model

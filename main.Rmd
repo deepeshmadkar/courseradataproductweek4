@@ -1,5 +1,5 @@
 ---
-title: "Cousera: Data Product Final Assignment"
+title: "Coursera: Data Product Final Assignment"
 author: "Deepesh Madkar"
 date: "10/30/2018"
 output: slidy_presentation
@@ -19,7 +19,8 @@ petal width and petal height are selected by the user. This was achieved by usin
 
 The following are the details of the application:
 
-- [Source Code Link](https://www.github.com/deepeshmadkar) - ""
+- [Source Code Link](https://github.com/deepeshmadkar/courseradataproductweek4) - "https://github.com/deepeshmadkar/courseradataproductweek4"
+- [Presentation Link](https://github.com/deepeshmadkar/courseradataproductweek4)
 - [App Link](https://www.github.com/deepeshmadkar) - ""
 
 

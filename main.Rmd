@@ -1,0 +1,57 @@
+---
+title: "Cousera: Data Product Final Assignment"
+author: "Deepesh Madkar"
+date: "10/30/2018"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Overview of Dataset 
+The dataset used to for the app is iris, the dataset contains the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+
+#### About Application
+The shiny application predicts the name of the iris species, when sepal width, sepal height,
+petal width and petal height are selected by the user. This was achieved by using `caret library` and applying lda method (Linear Discriminant Analysis).
+
+The following are the details of the application:
+
+- [Source Code Link](https://www.github.com/deepeshmadkar) - ""
+- [App Link](https://www.github.com/deepeshmadkar) - ""
+
+
+
+## Basic Exploratory Analysis
+
+```{r echo = TRUE}
+# dimenssion of the dataset
+dim(iris)
+
+# basic overview of the dataset
+summary(iris)
+
+```
+
+## Basic Exploratory Analysis - Visual
+
+```{r echo = TRUE}
+# rough visual overview of the dataset
+plot(iris)
+
+```
+
+## Accurracy of the Application
+```{r echo = FALSE, include=FALSE, comment=FALSE, warning=FALSE}
+library(caret)
+```
+
+```{r echo = TRUE}
+# Linear Discriminant Analysis (LDA)
+model1 <- train(Species~., data=iris, method='lda')
+# Accuracy of the model
+model1
+```
+#### Thank you
